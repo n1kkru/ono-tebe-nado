@@ -1,1 +1,77 @@
-/* место для вашего кода */
+body {
+  margin: 0;
+  font-family: Raleway, serif;
+  font-weight: 400;
+  background-color: gray;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6, 
+ul, 
+ol, 
+p, 
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 92px 49px 92px 51px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 18px;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__menu {
+  padding: 43px 0 45px;
+}
+
+.header__link-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__link-active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  justify-self: center;
+}
+
+.header__logo-image {
+  width: 148px;
+}
+
+.address {
+  justify-self: end;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+.address a {
+  text-decoration: none;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 1440px;
+}
